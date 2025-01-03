@@ -1,4 +1,4 @@
-package dsa1;
+package Arrays;
 class Singled{
     int arr[]=null;
     //initialization of array
@@ -58,7 +58,7 @@ class Singled{
     }
    }
 }
-public class Dsa1 {
+public class Arrays {
     public static void main(String[] args) {
         Singled s=new Singled(5);
         s.insert(0,5);
