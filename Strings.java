@@ -3,6 +3,10 @@ import java.util.*;
 
 public class Strings {
     public static void main(String[] args) {
+        //string are immutable 
+        //once if u created a string then u cant delete ,modify or change the string at all.
+
+
         String name = "Tony";
         String fullName = "Rakesh";
         String sentence = "My name is Tony Stark";
@@ -53,8 +57,9 @@ public class Strings {
         //output : Strings are not equal 
         //because the objects are not same and the addres for two new strings are seperate 
 
-        String name7=sentence.substring(0,5); //
-        System.out.println(name7);
+        String name7=sentence.substring(0,5); //gerenates the substring and stores in a variable
+        System.out.println(name7);//parameters -starting index ,ending index 
+        //for substring the ending index will not be printed only the eement before the last element will get printed
     }
 
 
