@@ -6,8 +6,8 @@ class Singled{
         arr=new int[sizeofarray];
         for(int i=0;i<arr.length;i++){
             arr[i]=Integer.MIN_VALUE;
-        }
-    }
+        }     
+    }        
     //inserting elements in array
     public void insert(int location,int valuetobeinserted){
         try{
