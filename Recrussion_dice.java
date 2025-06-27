@@ -1,6 +1,6 @@
 public class Recrussion_dice{
     public static void main(String[] args){
-        BoardDice(4, 0, "");
+      BoardDice(4, 0, "");
     }
     public static void BoardDice(int n,int curr,String ans){
         if(n==curr){
